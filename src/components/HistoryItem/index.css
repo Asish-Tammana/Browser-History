@@ -1,0 +1,35 @@
+.history-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.time-accessed {
+  color: #64748b;
+  font-weight: 600;
+  width: 10%;
+}
+
+.img-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 87%;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.url {
+  color: #64748b;
+  margin-left: 10px;
+}
+
+.delete {
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+}
